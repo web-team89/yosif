@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <style>
+        @font-face {
+            font-family: 'Jeko-Medium';
+            src: url('Jeko Demo Fonts/Jeko-Medium.otf') format('opentype');
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Lato', 'Jeko-Medium', sans-serif;
+            background-color: #FEFCFB;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        footer {
+            width: 100%;
+            background-color: #F4EAE5;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 6.25rem;
+            align-self: end;
+            position: fixed;
+            bottom: 0;
+        }
+        
+        footer .top {
+            margin: auto;
+            width: 85%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        
+        footer .top .logo {
+            width: 20rem;
+        }
+        
+        footer .top .logo p {
+            color: #666;
+            font-family: Lato;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            width: 90%;
+        }
+        
+        footer .top .logo .icons {
+            display: flex;
+            gap: 1rem;
+            width: 6.25rem;
+            height: 1.25rem;
+            align-items: center;
+        }
+        
+        footer .top .logo .icons i {
+            width: 1.25rem;
+            height: 1.25rem;
+            flex-shrink: 0;
+            color: #FA7436;
+        }
+        
+        footer .top nav {
+            padding-top: 1rem;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 7.69rem;
+        }
+        
+        footer .top nav ul li {
+            margin-bottom: 1.5rem;
+            list-style: none;
+        }
+        
+        footer .top nav ul li a {
+            color: rgba(63, 63, 63, 0.70);
+            font-family: Lato;
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%;
+        }
+        
+        footer .top nav ul li a span {
+            color: #171717;
+            font-family: Jeko-Medium;
+            font-size: 1.125rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+        }
+        
+        footer .top .right {
+            padding-top: 1rem;
+        }
+        
+        footer .top .right p {
+            color: #171717;
+            font-family: Jeko-Medium;
+            font-size: 1.125rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+        }
+        
+        footer .top .right input {
+            margin-top: 1.75rem;
+            border: 2px solid transparent;
+            width: 14rem;
+            height: 3rem;
+            flex-shrink: 0;
+            opacity: 0.1;
+            background: #B3BAC5;
+            margin-bottom: 0.88rem;
+        }
+        
+        footer .top .right input[type="text"],
+        footer .top .right button {
+            display: block;
+        }
+        
+        footer .top .right input::placeholder {
+            color: #000000;
+            font-family: Lato;
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 100%;
+            text-indent: 20px;
+        }
+        
+        footer .top .right button {
+            border: 2px solid transparent;
+            width: 14rem;
+            height: 2.875rem;
+            flex-shrink: 0;
+            background-color: #FA7436;
+            color: white;
+            justify-content: center;
+            cursor: pointer;
+        }
+        
+        footer .line {
+            border-bottom: 0.0625rem solid #666;
+            width: 100%;
+            height: 100%;
+            opacity: 0.2;
+            margin-top: 2rem;
+        }
+        
+        footer .bottom {
+            display: flex;
+            width: 85%;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        footer .bottom p {
+            color: #666;
+            font-family: Jeko-Medium;
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+            opacity: 0.7;
+        }
+        
+        footer .bottom .right {
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <footer>
+        <div class="top">
+            <div class="logo">
+                <img src="./images/icon/logo.png" alt="">
+                <p>We believe brand interaction is key in commu- nication. Real innovations and a positive.</p>
+                <div class="icons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" onclick="changeParentUrl('article.html')"><span>Article</span></a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="changeParentUrl('customer reviews.html')">Customer Reviews</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="changeParentUrl('FAQ.html')">FAQ’s</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="changeParentUrl('download.html')">Download</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="changeParentUrl('login.html')">Login</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#" onclick="changeParentUrl('template.html')"><span>Template</span></a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="changeParentUrl('Terms.html')">Terms</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="changeParentUrl('tourist.html')">TOURIST</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="changeParentUrl('travel offers.html')">travel offers</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href=""><span>Support</span></a>
+                    </li>
+                    <li>
+                        <a href="">Support centes</a>
+                    </li>
+                    <li>
+                        <a href="">Feedback</a>
+                    </li>
+                    <li>
+                        <a href="">Accessibility</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="right">
+                <p>Get in touch</p>
+                <input type="text" placeholder="Your email here...">
+                <button>Get Access</button>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="bottom">
+            <div class="left">
+                <p>TravelAgent © 2022 All Right Reserved</p>
+            </div>
+            <div class="right">
+                <p>Terms of Service</p>
+                <p>Privacy Policy</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    // Function to change the parent window URL
+    function changeParentUrl(url) {
+        window.parent.postMessage({
+            url: url
+        }, '*');
+    }
+</script>
+
+</html>

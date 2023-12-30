@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="js/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 2rem;
+            background-color: #fa7436;
+            color: #ffffff;
+        }
+        
+        .destination-card {
+            border: 2px solid #fa7436;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        
+        .destination-card:hover {
+            transform: scale(1.05);
+        }
+        
+        .destination-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .destination-title {
+            color: #fa7436;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 1rem 0;
+        }
+        
+        .destination-description {
+            color: #6c757d;
+        }
+    </style>
+    <title>Tourist Destinations</title>
+</head>
+
+<body>
+    <!-- header -->
+    <iframe src="header.html" width="100%" height="100%" frameborder="0"></iframe>
+
+    <div class="header">
+        <h1>Tourist <span style="color: #6c757d;">Destinations</span></h1>
+    </div>
+
+    <div class="container my-5">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <!-- Destination 1 -->
+            <div class="col">
+                <div class="card destination-card">
+                    <img src="images/tourist/Paris.jpeg" class="destination-image card-img-top" alt="Paris">
+                    <div class="card-body">
+                        <h5 class="destination-title">Paris, France</h5>
+                        <p class="destination-description">Known as the "City of Light," Paris is famous for its art, fashion, and culture.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Destination 2 -->
+            <div class="col">
+                <div class="card destination-card">
+                    <img src="images/tourist/Kyoto.jpeg" class="destination-image card-img-top" alt="Kyoto">
+                    <div class="card-body">
+                        <h5 class="destination-title">Kyoto, Japan</h5>
+                        <p class="destination-description">A city with a rich history, Kyoto is home to beautiful temples, gardens, and traditional tea houses.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Destination 3 -->
+            <div class="col">
+                <div class="card destination-card">
+                    <img src="images/tourist/Rio de Janeiro.jpeg" class="destination-image card-img-top" alt="Rio de Janeiro">
+                    <div class="card-body">
+                        <h5 class="destination-title">Rio de Janeiro, Brazil</h5>
+                        <p class="destination-description">Famous for its vibrant Carnival and iconic Christ the Redeemer statue, Rio is a lively destination.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Destination 4 -->
+            <div class="col">
+                <div class="card destination-card">
+                    <img src="images/tourist/Santorini.jpeg" class="destination-image card-img-top" alt="Santorini">
+                    <div class="card-body">
+                        <h5 class="destination-title">Santorini, Greece</h5>
+                        <p class="destination-description">Known for its stunning sunsets and white-washed buildings, Santorini is a romantic island in the Aegean Sea.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Destination 5 -->
+            <div class="col">
+                <div class="card destination-card">
+                    <img src="images/tourist/New York City.jpeg" class="destination-image card-img-top" alt="New York City">
+                    <div class="card-body">
+                        <h5 class="destination-title">New York City, USA</h5>
+                        <p class="destination-description">The city that never sleeps, NYC is a melting pot of cultures with iconic landmarks like Times Square and Central Park.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Destination 6 -->
+            <div class="col">
+                <div class="card destination-card">
+                    <img src="images/tourist/Cairo.jpeg" class="destination-image card-img-top" alt="Cairo">
+                    <div class="card-body">
+                        <h5 class="destination-title">Cairo, Egypt</h5>
+                        <p class="destination-description">Home to the ancient pyramids and Sphinx, Cairo is a city with a rich historical and cultural heritage.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Destination 7 -->
+            <div class="col">
+                <div class="card destination-card">
+                    <img src="images/tourist/Sydney.jpeg" class="destination-image card-img-top" alt="Sydney">
+                    <div class="card-body">
+                        <h5 class="destination-title">Sydney, Australia</h5>
+                        <p class="destination-description">With its iconic Opera House and stunning harbor, Sydney is a vibrant and picturesque city.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Destination 8 -->
+            <div class="col">
+                <div class="card destination-card">
+                    <img src="images/tourist/Rome.jpeg" class="destination-image card-img-top" alt="Rome">
+                    <div class="card-body">
+                        <h5 class="destination-title">Rome, Italy</h5>
+                        <p class="destination-description">The capital of Italy, Rome is known for its ancient ruins, including the Colosseum and Roman Forum.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Destination 9 -->
+            <div class="col">
+                <div class="card destination-card">
+                    <img src="images/tourist/Cape Town.jpeg" class="destination-image card-img-top" alt="Cape Town">
+                    <div class="card-body">
+                        <h5 class="destination-title">Cape Town, South Africa</h5>
+                        <p class="destination-description">A coastal city with stunning landscapes, Cape Town offers a mix of natural beauty and urban culture.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- footer -->
+    <iframe src="footer.html" frameborder="0" style="overflow:hidden; display:block; position: absolute; height: 100%; width: 100%"></iframe>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+
+</html>
