@@ -1225,7 +1225,7 @@
             }
         }
         
-        @media (max-width: 450px) {
+        @media (max-width: 550px) {
             .home .first-section .left-content h1 {
                 font-size: 2.5rem;
             }
@@ -1295,7 +1295,7 @@
             margin-bottom: 10rem;
         }
         
-        @media (max-width: 450px) {
+        @media (max-width: 550px) {
             .sixth-section .swiper-slide {
                 width: 100%;
                 height: 100%;
