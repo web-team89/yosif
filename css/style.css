@@ -1296,6 +1296,9 @@
         }
         
         @media (max-width: 550px) {
+               .home .fifth-section .first p{
+                      width:100%;
+               }
             .sixth-section .swiper-slide {
                 width: 100%;
                 height: 100%;
